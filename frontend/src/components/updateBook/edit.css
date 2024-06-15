@@ -1,0 +1,80 @@
+.editBook {
+    width: 40%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.backButton {
+    display: inline-block;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+    background-color: darkmagenta;
+}
+
+.editBookForm {
+    margin-top: 20px;
+}
+
+.editBookForm .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.editBookForm .inputGroup label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.editBookForm .inputGroup input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    transition: border-color 0.3s ease;
+}
+
+.editBookForm .inputGroup input:focus {
+    border-color: purple;
+}
+
+.editBookForm .inputGroup button {
+    border: 0;
+    outline: none;
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.editBookForm .inputGroup button:hover {
+    background-color: darkmagenta;
+}
+
+.editBook h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
